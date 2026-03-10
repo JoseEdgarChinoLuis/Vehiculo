@@ -48,5 +48,11 @@ public class Main {
 
         else if (opcion == 3) {
 
-           
+            System.out.println("Total de vehículos creados: " + Vehiculo.totalVehiculos);
+        }
+
+        else {
+            System.out.println("Opción no válida");
+        }
+    }
 }
