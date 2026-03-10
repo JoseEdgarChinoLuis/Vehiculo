@@ -26,5 +26,8 @@ public class Vehiculo {
         System.out.println("Precio: " + precio);
     }
 
-    
+    public void encender() {
+        System.out.println("El vehículo " + marca + " ha sido encendido");
+    }
+
 }
