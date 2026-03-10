@@ -10,5 +10,9 @@ public class Auto extends Vehiculo {
         this.tipoCombustible = tipoCombustible;
     }
 
+    public void tocarClaxon() {
+        System.out.println("El auto " + getMarca() + " toca el claxon");
+    }
+
     
 }
