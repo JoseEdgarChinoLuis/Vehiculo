@@ -14,5 +14,7 @@ public class Camion extends Vehiculo {
         System.out.println("El camión " + getMarca() + " está cargando mercancía");
     }
 
-    
+    public void mostrarCapacidad() {
+        System.out.println("Capacidad de carga: " + capacidadCarga);
+    }
 }
