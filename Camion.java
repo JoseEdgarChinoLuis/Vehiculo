@@ -10,5 +10,9 @@ public class Camion extends Vehiculo {
         this.numeroEjes = numeroEjes;
     }
 
-   
+    public void cargarMercancia() {
+        System.out.println("El camión " + getMarca() + " está cargando mercancía");
+    }
+
+    
 }
