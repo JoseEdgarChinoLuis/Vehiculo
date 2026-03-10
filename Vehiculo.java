@@ -30,4 +30,9 @@ public class Vehiculo {
         System.out.println("El vehículo " + marca + " ha sido encendido");
     }
 
+    public void aplicarDescuento() {
+        precio = precio * 0.9;
+    }
+
+    
 }
