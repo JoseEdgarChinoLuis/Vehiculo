@@ -14,5 +14,7 @@ public class Auto extends Vehiculo {
         System.out.println("El auto " + getMarca() + " toca el claxon");
     }
 
-    
+    public void mostrarPuertas() {
+        System.out.println("Número de puertas: " + numeroPuertas);
+    }
 }
